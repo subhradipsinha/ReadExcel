@@ -8,7 +8,11 @@ import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+//import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class EmailIDVerify {
 
@@ -32,13 +36,51 @@ public class EmailIDVerify {
 		
 			
 			
-				System.setProperty("webdriver.gecko.driver", "./Driver/geckodriver.exe");
-				WebDriver dv = new FirefoxDriver();
+				System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
+				WebDriver dv = new ChromeDriver();
 				dv.get(prop.getProperty("URL")); 
 				dv.manage().window().maximize();// Window open maximize size always open
 				Thread.sleep(2000);
+				dv.findElement(By.xpath(prop.getProperty("Close"))).click();
+				Thread.sleep(3000);
+				WebElement Slider = dv.findElement(By.xpath(prop.getProperty("Picture")));
+				Slider.click();
+				Thread.sleep(3000);
 				
-				for
+				dv.navigate().back();
+				Thread.sleep(3000);
+				
+				/*dv.navigate().forward();
+				Thread.sleep(3000);
+				
+				dv.navigate().refresh();
+				Thread.sleep(3000);
+				
+				dv.navigate().to("https://www.google.com");
+				Thread.sleep(3000);*/
+				
+				WebElement Slider1 = dv.findElement(By.xpath(prop.getProperty("Picture1")));
+				Slider1.click();
+				Thread.sleep(3000);
+				
+				dv.findElement(By.xpath(prop.getProperty("Picture1")));
+				Slider1.click();
+				Thread.sleep(3000);
+		
+				dv.findElement(By.xpath(prop.getProperty("ClickPicture"))).click();
+				Thread.sleep(3000);
+						
+				Select droup = new Select(dv.findElement(By.xpath(prop.getProperty("Minimum"))));;
+				droup.selectByValue((prop.getProperty("minimum")));
+				Thread.sleep(2000);
+				dv.findElement(By.xpath(prop.getProperty("BRANDRadioButton"))).click();
+				Thread.sleep(2000);
+				dv.findElement(By.xpath(prop.getProperty("CUSTOMERRATINGS"))).click();
+				Thread.sleep(2000);
+				dv.findElement(By.xpath(prop.getProperty("Product"))).click();
+				Thread.sleep(2000);
+				
+				/*for
 				(String window: dv.getWindowHandles()){
 				dv.switchTo().window(window);
 				Thread.sleep(5000);
@@ -68,5 +110,4 @@ public class EmailIDVerify {
 				
 	}
 
-}
 }
