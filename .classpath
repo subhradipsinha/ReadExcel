@@ -10,6 +10,27 @@
 	<classpathentry kind="lib" path="E:/sw/selenium-java-3.141.59/libs/guava-25.0-jre.jar"/>
 	<classpathentry kind="lib" path="E:/sw/selenium-java-3.141.59/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="E:/sw/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
-	<classpathentry kind="lib" path="E:/sw/selenium-java-3.141.59/libs/testng-6.0.jar"/>
+	<classpathentry kind="lib" path="E:/sw/selenium-java-3.141.59/libs/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="E:/sw/selenium-java-3.141.59/libs/selenium-java-2.53.1-srcs.jar"/>
+	<classpathentry kind="lib" path="E:/sw/selenium-java-3.141.59/libs/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/curvesapi-1.05.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/jaxb-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/jaxb-impl-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/poi-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/poi-examples-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/poi-excelant-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/poi-ooxml-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/poi-ooxml-schemas-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/poi-scratchpad-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Subhradip Sinha/Downloads/poi-bin-4.0.1-20181203/poi-4.0.1/xmlbeans-3.0.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

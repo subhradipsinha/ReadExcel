@@ -71,10 +71,10 @@ public class ReadFileData {
 			
 			dv.findElement(By.xpath(prop.getProperty("Submit Button"))).click();
 			
-			prop.getProperty("URL"); 
+			/*prop.getProperty("URL"); 
 			System.out.println("FirstName::" + prop.getProperty("FirstName"));
 			System.out.println("Last Name::" + prop.getProperty("Last Name"));
 		     System.out.println("Password::" +prop.getProperty("password"));
-
+*/
 	}
 }
